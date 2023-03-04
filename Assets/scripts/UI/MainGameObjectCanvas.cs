@@ -10,7 +10,6 @@ namespace DefaultNamespace.Rival_StandardCharacters.FirstPerson.Scripts.UI
         void Awake()
         {
             Instance = GetComponent<UnityEngine.Canvas>();
-            Debug.Log(Instance);
         }
     }
 }

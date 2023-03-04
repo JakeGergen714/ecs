@@ -7,7 +7,9 @@
             return new()
             {
                 range = 5,
-                fireRate = 50
+                fireRate = 50,
+                crosshairRecoilOffset = 1,
+                crosshairDecay = 10f,
             };
         }
         
@@ -16,7 +18,10 @@
             return new()
             {
                 range = 50,
-                fireRate = 100
+                fireRate = 100,
+                crosshairRecoilOffset = 0,
+                crosshairDecay = 100f,
+                tickBetweenShots = 0,
             };
         }
     }
